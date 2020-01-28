@@ -6,9 +6,10 @@
   "dependencies": {
     "xml2js": "^0.4.23"
   },
+  "engines": {"yarn": "1.21.1"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn src/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   }
 }
